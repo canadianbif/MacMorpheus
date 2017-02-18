@@ -142,7 +142,27 @@
 		leftView.roll = 0;
 		[self syncRightCameraFromLeft];
 		
-	} else {
+    } else if(event.keyCode == 0) { // d
+        
+        leftView.yaw += 1;
+        [self syncRightCameraFromLeft];
+        
+    } else if(event.keyCode == 2) { // a
+        
+        leftView.yaw -= 1;
+        [self syncRightCameraFromLeft];
+        
+    } else if(event.keyCode == 13) { // w
+        
+        leftView.pitch += 1;
+        [self syncRightCameraFromLeft];
+        
+    } else if(event.keyCode == 1) { // s
+        
+        leftView.pitch -= 1;
+        [self syncRightCameraFromLeft];
+        
+    } else {
 	
 		NSLog(@"Key Down: %d", event.keyCode);
 		
