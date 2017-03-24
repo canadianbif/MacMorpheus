@@ -33,3 +33,8 @@ https://github.com/emoRaivis/MacMorpheus/releases/download/0.2/MacMorpheus.app.z
 * **R** - Center view / reset orientation
 * **ESC** - Exit fullscreen / quit
 * ***Mouse drag*** - Look around
+
+### Fine Camera Control
+* **A/D** - Adjust Yaw
+* **W/S** - Adjust Pitch
+* **Q/E** - Adjust Roll
